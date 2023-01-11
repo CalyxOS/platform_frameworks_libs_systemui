@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6605326e_0ab4a702",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-01-11T21:03:24Z",
+      "side": 1,
+      "message": "The story here: Google majorly refactored iconloaderlib, which now includes its own copy of the briefcase icon (which is always blue) and only considers whether an icon should have a work badge or not via a flag. The user is not taken into account at all. There\u0027s no single commit to revert, because so much has changed.\n\nThis adds user into the mix, and uses the same PackageManager calls as before, which are still used by SystemUI for example (notification area). However, all of the refactoring expects to be able to use the badge separate from the icon, and PackageManager just wants to give you a badged app icon (all-in-one). PackageManager doesn\u0027t expose a usable way to get *just* the badge itself, which is what this refactored iconloaderlib needs. The closest method available doesn\u0027t actually work because the scale is wrong, and I couldn\u0027t fix that.\n\nSo, this doesn\u0027t do the prettiest thing: it asks PackageManager to place the badge on top of an empty canvas instead of an actual app icon, and then it crops to the badge.\n\nI\u0027ve been using this on my daily driver for at least a few weeks and it\u0027s been working fine.",
+      "revId": "f9d372c078f01dd206c37a34340a3c03b7bc1396",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
