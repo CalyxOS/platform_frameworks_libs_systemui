@@ -16,6 +16,40 @@
       "message": "The story here: Google majorly refactored iconloaderlib, which now includes its own copy of the briefcase icon (which is always blue) and only considers whether an icon should have a work badge or not via a flag. The user is not taken into account at all. There\u0027s no single commit to revert, because so much has changed.\n\nThis adds user into the mix, and uses the same PackageManager calls as before, which are still used by SystemUI for example (notification area). However, all of the refactoring expects to be able to use the badge separate from the icon, and PackageManager just wants to give you a badged app icon (all-in-one). PackageManager doesn\u0027t expose a usable way to get *just* the badge itself, which is what this refactored iconloaderlib needs. The closest method available doesn\u0027t actually work because the scale is wrong, and I couldn\u0027t fix that.\n\nSo, this doesn\u0027t do the prettiest thing: it asks PackageManager to place the badge on top of an empty canvas instead of an actual app icon, and then it crops to the badge.\n\nI\u0027ve been using this on my daily driver for at least a few weeks and it\u0027s been working fine.",
       "revId": "f9d372c078f01dd206c37a34340a3c03b7bc1396",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ed78991_55940b9f",
+        "filename": "iconloaderlib/src/com/android/launcher3/icons/BitmapInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-01-11T21:10:23Z",
+      "side": 1,
+      "message": "It makes sense that if you can setUser(), you should be able to getUser(). That\u0027s why this is here. But in reality, all we use it for is to figure out what icon to use, and then we don\u0027t need it anymore. So technically, if we wanted, we could remove mUserHandle and getUser(), too, and nothing would change, for our purposes.",
+      "revId": "f9d372c078f01dd206c37a34340a3c03b7bc1396",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac9b9fda_00ab5978",
+        "filename": "iconloaderlib/src/com/android/launcher3/icons/BitmapInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-01-11T21:10:23Z",
+      "side": 1,
+      "message": "It looks weird leaving commented code in here, but as with the other commented code section (which contains getUserBadgedDrawableForDensity), I left it in, in case it is useful in the event that AOSP changes something and we suddenly need to do something differently. In my testing though, it doesn\u0027t seem to be necessary now.",
+      "revId": "f9d372c078f01dd206c37a34340a3c03b7bc1396",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
