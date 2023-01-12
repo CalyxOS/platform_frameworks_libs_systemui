@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e0e192e8_f086db7e",
+        "filename": "iconloaderlib/src/com/android/launcher3/icons/BaseIconFactory.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 440,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2023-01-12T12:21:35Z",
+      "side": 1,
+      "message": "Couldn\u0027t `assert` calls be optimized out?\nWouldn\u0027t it be better to use an `if`, which throws an exception, instead?",
+      "parentUuid": "776052f4_260c7caa",
+      "revId": "f9d372c078f01dd206c37a34340a3c03b7bc1396",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8ed78991_55940b9f",
         "filename": "iconloaderlib/src/com/android/launcher3/icons/BitmapInfo.java",
         "patchSetId": 1
