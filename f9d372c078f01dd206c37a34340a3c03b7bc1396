@@ -71,6 +71,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "545d8fcf_5f7ed04a",
+        "filename": "iconloaderlib/src/com/android/launcher3/icons/BaseIconFactory.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 440,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-03-15T21:53:31Z",
+      "side": 1,
+      "message": "Changed to an exception now. Didn\u0027t test it artificially because... why would the badge ever be bigger than the icon anyway? [famous last words]",
+      "parentUuid": "d7081e06_6a335758",
+      "revId": "f9d372c078f01dd206c37a34340a3c03b7bc1396",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8ed78991_55940b9f",
@@ -88,6 +106,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "578c2a71_5416eee4",
+        "filename": "iconloaderlib/src/com/android/launcher3/icons/BitmapInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-03-15T21:53:31Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8ed78991_55940b9f",
+      "revId": "f9d372c078f01dd206c37a34340a3c03b7bc1396",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ac9b9fda_00ab5978",
@@ -101,6 +137,24 @@
       "writtenOn": "2023-01-11T21:10:23Z",
       "side": 1,
       "message": "It looks weird leaving commented code in here, but as with the other commented code section (which contains getUserBadgedDrawableForDensity), I left it in, in case it is useful in the event that AOSP changes something and we suddenly need to do something differently. In my testing though, it doesn\u0027t seem to be necessary now.",
+      "revId": "f9d372c078f01dd206c37a34340a3c03b7bc1396",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69e98fd0_058f4a4f",
+        "filename": "iconloaderlib/src/com/android/launcher3/icons/BitmapInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-03-15T21:53:31Z",
+      "side": 1,
+      "message": "Ack, I think it\u0027s fine",
+      "parentUuid": "ac9b9fda_00ab5978",
       "revId": "f9d372c078f01dd206c37a34340a3c03b7bc1396",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
