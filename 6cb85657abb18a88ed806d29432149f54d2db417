@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26d433d9_b26d29bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-06-15T14:35:04Z",
+      "side": 1,
+      "message": "Working in QPR3 now, but not tested with cloned apps; their behavior (whatever it is) should remain unchanged.",
+      "revId": "6cb85657abb18a88ed806d29432149f54d2db417",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
