@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be218d26_00f3208b",
+        "filename": "iconloaderlib/src/com/android/launcher3/icons/BaseIconFactory.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-17T15:15:14Z",
+      "side": 1,
+      "message": "The way I understand it, without a work profile, MAX_ENTRIES could be 0. With one work profile, it could be 2. With two work profiles, it could be 4. (This is all per user.) But there may be circumstances I\u0027m not thinking about, so I set it to 50, just so we have a limit at all, which is obviously better than letting it balloon indefinitely.\n\nNot worth overthinking more than this right now, imo.",
+      "revId": "6e72004e9d42941c6eb1d0bb9544ca562abb43ed",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
