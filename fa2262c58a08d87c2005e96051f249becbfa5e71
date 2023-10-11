@@ -22,6 +22,30 @@
       },
       "revId": "fa2262c58a08d87c2005e96051f249becbfa5e71",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8010efd_0edea82e",
+        "filename": "iconloaderlib/src/com/android/launcher3/icons/BitmapInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-11T18:31:40Z",
+      "side": 1,
+      "message": "Done. Yeah, this was free to go. There\u0027s some commented code in `iconloaderlib/src/com/android/launcher3/icons/BaseIconFactory.java` that is worth keeping I think, but not this.",
+      "parentUuid": "d7e2f08f_866c6793",
+      "range": {
+        "startLine": 124,
+        "startChar": 0,
+        "endLine": 128,
+        "endChar": 16
+      },
+      "revId": "fa2262c58a08d87c2005e96051f249becbfa5e71",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
