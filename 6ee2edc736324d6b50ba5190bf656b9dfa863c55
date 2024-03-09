@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d16abbc_a7d7701f",
+        "filename": "iconloaderlib/src/com/android/launcher3/icons/BitmapInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-09T21:48:22Z",
+      "side": 1,
+      "message": "Confirmed the correct badge *is* shown even for cloned apps (which we don\u0027t currently support anyway) in case anyone was wondering.",
+      "revId": "6ee2edc736324d6b50ba5190bf656b9dfa863c55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
