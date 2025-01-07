@@ -34,6 +34,24 @@
       "parentUuid": "24a995cd_251288b0",
       "revId": "b1eb15975fd4cb069dc7356627670719c896708a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b009074_7ccddaa5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-07T23:15:27Z",
+      "side": 1,
+      "message": "For now I found it easier to revert and then later we can reland, because of the rework above I didn\u0027t see an easy / quick way to make this work.\n\nhttps://review.calyxos.org/c/CalyxOS/platform_frameworks_libs_systemui/+/34204",
+      "parentUuid": "1e99b538_cd614aa9",
+      "revId": "b1eb15975fd4cb069dc7356627670719c896708a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
