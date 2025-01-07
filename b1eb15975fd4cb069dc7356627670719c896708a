@@ -16,6 +16,24 @@
       "message": "```\nframeworks/libs/systemui/iconloaderlib/src/com/android/launcher3/icons/BaseIconFactory.java:264: error: cannot find symbol\n                info.setUser(user, this);\n```",
       "revId": "b1eb15975fd4cb069dc7356627670719c896708a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e99b538_cd614aa9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-07T23:12:36Z",
+      "side": 1,
+      "message": "https://android.googlesource.com/platform/frameworks/libs/systemui/+/3da17f74c6c25876cd94fa06d59d0955ff60e114",
+      "parentUuid": "24a995cd_251288b0",
+      "revId": "b1eb15975fd4cb069dc7356627670719c896708a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
