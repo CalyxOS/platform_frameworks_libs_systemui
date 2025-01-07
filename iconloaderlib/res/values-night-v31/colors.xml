@@ -19,6 +19,5 @@
 <resources>
     <color name="themed_icon_color">@android:color/system_accent1_200</color>
     <color name="themed_icon_background_color">@android:color/system_accent2_800</color>
-    <color name="themed_badge_icon_color">@android:color/system_accent2_800</color>
-    <color name="themed_badge_icon_background_color">@android:color/system_accent1_200</color>
+    <!-- Fallback badge colors are specified in the main colors.xml -->
 </resources>
