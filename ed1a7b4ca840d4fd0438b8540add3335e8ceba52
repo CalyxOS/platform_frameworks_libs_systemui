@@ -1,5 +1,40 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f6a5784_7df3f8cc",
+        "filename": "iconloaderlib/res/values-night-v31/colors.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-03-05T21:42:07Z",
+      "side": 1,
+      "message": "15 QPR1, QPR2 - both times this has conflicted, both times it\u0027s been easier to just re-apply rather than figure out the conflicts.\n\nMight be easier to just remove the lines rather than comment out next time. A rebase may help, too.",
+      "revId": "ed1a7b4ca840d4fd0438b8540add3335e8ceba52",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dcba786_71690968",
+        "filename": "iconloaderlib/res/values/colors.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-03-05T21:42:07Z",
+      "side": 1,
+      "message": "I wonder if this can be overlayed",
+      "revId": "ed1a7b4ca840d4fd0438b8540add3335e8ceba52",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
