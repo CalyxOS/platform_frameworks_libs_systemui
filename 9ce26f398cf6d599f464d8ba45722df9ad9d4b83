@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e85574b9_bb4e9766",
+        "filename": "iconloaderlib/src/com/android/launcher3/icons/cache/BaseIconCache.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 563,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-06-11T17:21:21Z",
+      "side": 1,
+      "message": "Missing change from https://review.calyxos.org/c/CalyxOS/platform_frameworks_libs_systemui/+/29502/1/iconloaderlib/src/com/android/launcher3/icons/cache/BaseIconCache.java#659",
+      "revId": "9ce26f398cf6d599f464d8ba45722df9ad9d4b83",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
